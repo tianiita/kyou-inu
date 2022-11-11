@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+.inu-bar {
+    background-color: #1abc9c;
+    color: #ffffff; 
+}
+
+.output-inu {
+    background-color: #48c7ae;
+    color: #ffffff;
+    font-size: 27px;
+}
+
+#inuRandom {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}

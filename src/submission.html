@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyou-Inu</title>
+  </head>
+  <header>
+    <inu-bar></inu-bar>
+  </header>
+  <body>
+    <div class="container mt-1">
+      <div class="row">
+        <form class="container pt-3 col">
+          <div class="mb-3 mt-3">
+            <label for="name">Name:</label>
+            <input type="name" class="form-control" id="inputNama" placeholder="Enter a name" name="nama">
+          </div>
+          <div class="mb-3">
+            <label for="dog-type">Dog Type:</label>
+            <select class="form-select" id="inuType">
+                <option class="type" id="random" value="random" selected>Random</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success" id="submitButton">Fetch Me!</button>
+          <inu-toast></inu-toast>
+        </form>
+        <div class="col mt-4 text-center">
+          <result-inu></result-inu>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
